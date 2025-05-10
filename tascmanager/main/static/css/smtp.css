@@ -1,0 +1,20 @@
+/* Стили для контейнера кнопки */
+.button {
+    display: inline-block;
+    left: -150px;
+    /* делаем блочно-строчный элемент */
+}
+
+
+/* Стили для самой кнопки */
+.button input[type="button"] {
+    color: #fff;
+    font-size: 20px;
+    background: #353b48;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: 0.2s;
+    /* чтобы плавно менялся цвет при наведении (:hover) */
+}

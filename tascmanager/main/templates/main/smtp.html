@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="{% static 'css/smtp.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Форма обратной связи</title>
+</head>
+
+<body>
+
+    <!-- <nav class="navbar">
+        <div class="inner-width">
+            <a href="index.html" class="logo"></a>
+            <button class="menu-toggler">
+
+            </button>
+            <div class="navbar-menu">
+                <a href="/index">Главная</a>
+                <a href="/about">Каталог</a>
+                <a href="/galery">Галерея</a>
+                <a href="/index">О нас</a>
+            </div>
+        </div>
+    </nav> -->
+                    <div class="button">
+                        <a href=""><i class="fa-brands fa-telegram"></i><input type="button" value="Telegram" /></a>
+                    </div>
+
+                    <br>
+
+                    <div class="button">
+                        <a href=""><input type="button" value="Whatsapp" /></a>
+                    </div>
+                    
+                    <br> 
+
+                    <div class="button">
+                        <a href=""><input type="button" value="Отправить" /></a>
+                    </div>
+
+    {% comment %} <script src="https://kit.fontawesome.com/fce9a50d02.js" crossorigin="anonymous"></script> {% endcomment %}
+    <script src="https://kit.fontawesome.com/7e5d56be1c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

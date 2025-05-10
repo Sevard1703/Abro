@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+}
+
+.im {
+    /* padding: 10px 20px 10px 20px; */
+    text-align: center;
+}
+
+.nam {
+    color: #f1f1f1;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.bab {
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: #48dbfb;
+    font-size: 16px;
+    border: 2px solid #48dbfb;
+    padding: 2;
+    margin-left: auto;
+    cursor: pointer;
+    transition: .3s linear;
+    border-radius: 5px;
+}
+
+.bab:hover,
+.bab:focus,
+.bab.active {
+    background-color: #48dbfb;
+    color: #fff;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 250ms ease-in-out 0s;
+    -moz-transition: all 250ms ease-in-out 0s;
+    -ms-transition: all 250ms ease-in-out 0s;
+    -o-transition: all 250ms ease-in-out 0s;
+    transition: all 250ms ease-in-out 0s;
+}
+
+.open-popup {
+    color: white;
+    outline: none;
+}

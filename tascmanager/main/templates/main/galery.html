@@ -1,0 +1,259 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABRO | Католог</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="icon" href="{% static 'img/pic.png' %}" type="images/png" sizes="30x30" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,   400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="inner-width">
+            <a href="/" class="logo"></a>
+            <button class="menu-toggler">
+
+            </button>
+            <div class="navbar-menu">
+                <a href="/index">Главная</a>
+                <a href="/about">Каталог</a>
+                <a href="/galery">Галерея</a>
+                <a href="/index">О нас</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="inner-width">
+            <div class="content">
+                <h1>ABRO <br></h1>
+                <div class="sm">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin-in"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  <!-- Gallery -->
+  <section id="works" class="dark">
+    <div class="inner-width">
+      <h1 class="section-title">Галерея</h1>
+      <div class="works">
+        <a href="{% static '/img/works/DSC_0131.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0131.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">1</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/works/DSC_0129.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0129.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">2</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/works/DSC_0123.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0123.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">3</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/works/DSC_0130.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0130.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">4</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/works/DSC_0126.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0126.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">5</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/works/DSC_0132.JPG' %}" class="work">
+          <img src="{% static '/img/works/DSC_0132.JPG' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">6</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_10_2023-08-15_16-41-12.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_10_2023-08-15_16-41-12.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_5_2023-08-15_16-41-17.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_5_2023-08-15_16-41-17.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_10_2023-08-15_16-42-06.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_10_2023-08-15_16-42-06.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_10_2023-08-15_16-41-54.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_10_2023-08-15_16-41-54.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_10_2023-08-15_16-42-02.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_10_2023-08-15_16-42-02.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_3_2023-08-15_16-42-36.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_3_2023-08-15_16-42-36.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_3_2023-08-15_16-42-23.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_3_2023-08-15_16-42-23.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_1_2023-08-15_16-42-02.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_1_2023-08-15_16-42-02.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/photo_8_2023-08-15_16-42-02.jpg' %}" class="work">
+          <img src="{% static '/img/webgalery/photo_8_2023-08-15_16-42-02.jpg' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/' %}" class="work">
+          <img src="{% static '/img/webgalery/' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/' %}" class="work">
+          <img src="{% static '/img/webgalery/' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+
+        <a href="{% static '/img/webgalery/' %}" class="work">
+          <img src="{% static '/img/webgalery/' %}" alt="img" />
+          <div class="info">
+            <h3>Work Title</h3>
+            <div class="cat">Music, Headset</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+    <br>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Аbro <br> Capitals&Construction </h4>
+                    <ul>
+                        <p style="color: #BBBBBB;"> ABRO Capital&Construction - в рынке по производству строительных
+                            матереалов с 2018 года.</p>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="/smtp">Обратная связь</a></li>
+                        <li><a href="/product">Оформление заказа</a></li>
+                        <li><a href="/politic">Политика конфидерацианальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Партнёры</h4>
+                    <ul>
+                        <p style="color: #BBBBBB;">ООО BUXARA VARNET</p>
+                        <p style="color: #BBBBBB;">OOO METRIC VENTURES</p>
+                        <p style="color: #BBBBBB;">ОOO MERGANTEKS</p>
+                        <li><a href="/parners">О партнёрах</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Go Top BTN -->
+    <button class="goTop fas fa-arrow-up"></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="{% static 'js/scripts.js' %}"></script>
+  <script src="{% static 'js/app.js' %}"></script>
+</body>
+
+</html>

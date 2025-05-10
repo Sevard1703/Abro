@@ -1,0 +1,224 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABRO | Католог</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="icon" href="{% static 'img/pic.png' %}" type="images/png" sizes="30x30">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    {% block css_additional %}
+  <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    {% endblock %}
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="inner-width">
+      <a href="/" class="logo"></a>
+      <button class="menu-toggler">
+
+      </button>
+      <div class="navbar-menu">
+        <a href="/index">Главная</a>
+        <a href="/about">Каталог</a>
+        <a href="/galery">Галерея</a>
+        <a href="#education">О нас</a>
+        <!--
+        <a href="#works">LN</a>
+        <a href="#contact">D/L</a>
+-->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="inner-width">
+      <div class="content">
+        <h1>ABRO <br></h1>
+        <div class="sm">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin-in"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Catolog -->
+  <!--NEW ARRIVAL-->
+  <section class="new-arrival">
+
+    <!--products-->
+    <div class="product-container">
+
+      <!--product-box-1-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/beton" class="add-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+          <!--img-->
+          <img src="{% static 'img/works/Fasad.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/beton" class="p-name">Drawstring T-Shirt</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-2-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart--> 
+          <a href="/product/pr_two.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/OXAK.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_two.html" class="p-name">Известь гашёная</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-3-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/product/pr_three.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/plaster.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_three.html" class="p-name">Штукатурка на основе гипса</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-4-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/product/pr_four.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/plaster.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_four.html" class="p-name">Drawstring T-Shirt</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-5-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/product/pr_five.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/saten_gyps.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_five.html" class="p-name">Drawstring T-Shirt</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-6-->
+      <div class="product-box">
+        <!--product-img-->
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/product/pr_six.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/tileandceramic.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_six.html" class="p-name">Drawstring T-Shirt</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+      <!--product-box-7-->
+      <div class="product-box">
+        <!--product-img------------>
+        <div class="product-img">
+          <!--add-cart-->
+          <a href="/product/pr_seven.html" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+          <!--img-->
+          <img src="{% static 'img/works/shlak.JPG' %}">
+        </div>
+        <!--product-details-->
+        <div class="product-details">
+          <a href="/product/pr_seven.html" class="p-name">Drawstring T-Shirt</a>
+          <span class="p-price">$22.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Аbro <br> Capitals&Construction </h4>
+          <ul>
+            <p style="color: #BBBBBB;"> ABRO Capital&Construction - в рынке по производству строительных матереалов с 2018 года.</p> 
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Помощь</h4>
+          <ul>
+            <li><a href="/smtp">Обратная связь</a></li>
+            <li><a href="/product">Оформление заказа</a></li>
+            <li><a href="/politic">Политика конфидерацианальности</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Партнёры</h4>
+          <ul>
+            <p style="color: #BBBBBB;">ООО BUXARA VARNET</p>
+            <p style="color: #BBBBBB;">OOO METRIC VENTURES</p>
+            <p style="color: #BBBBBB;">ОOO MERGANTEKS</p> 
+            <li><a href="/parners">О партнёрах</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <!-- Go Top BTN -->
+  <button class="goTop fas fa-arrow-up"></button>
+</body>
+<script src="{% static 'js/scripts.js' %}"></script>
+
+</html>
